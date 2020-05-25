@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E298DB5865D375B03361A2 /* Pods_MyLDRSHIP_BattleBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9770608AABB9D6568C7FCE1 /* Pods_MyLDRSHIP_BattleBuddy.framework */; };
+		0A3347F92472516200DBC66B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3347F82472516200DBC66B /* LogInViewController.swift */; };
+		0A3347FB247257A500DBC66B /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3347FA247257A500DBC66B /* MainPageViewController.swift */; };
+		0A3347FD24725D2E00DBC66B /* PersonnelManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3347FC24725D2E00DBC66B /* PersonnelManagerViewController.swift */; };
+		0A3347FF24725FB300DBC66B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3347FE24725FB300DBC66B /* ProfileViewController.swift */; };
+		0A3348012472624700DBC66B /* TaskManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3348002472624700DBC66B /* TaskManagerViewController.swift */; };
+		0A33480324796B8700DBC66B /* battle-buddy-team-176x236.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A33480224796B8700DBC66B /* battle-buddy-team-176x236.jpg */; };
+		0A334809247987E800DBC66B /* gear-setting-logo-icon-vector-24042659.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A334808247987E800DBC66B /* gear-setting-logo-icon-vector-24042659.jpg */; };
+		0A33480B2479DA0A00DBC66B /* male_silhouette_icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A33480A2479DA0A00DBC66B /* male_silhouette_icon.jpeg */; };
+		0A33480D2479DAC800DBC66B /* army-cadet-command.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A33480C2479DAC800DBC66B /* army-cadet-command.jpg */; };
+		0A33480F2479DAD500DBC66B /* wabash-battalion-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A33480E2479DAD500DBC66B /* wabash-battalion-logo.jpeg */; };
+		0A3348112479DAF800DBC66B /* seventh-brigade-logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A3348102479DAF700DBC66B /* seventh-brigade-logo.jpeg */; };
+		0A334813247A04D900DBC66B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A334812247A04D900DBC66B /* Profile.swift */; };
+		0A334819247A1FD500DBC66B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A334818247A1FD500DBC66B /* GoogleService-Info.plist */; };
+		0A33481B247AA7B200DBC66B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33481A247AA7B200DBC66B /* Task.swift */; };
+		0A33481F247AB2EA00DBC66B /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33481E247AB2EA00DBC66B /* TaskDetailsViewController.swift */; };
 		0A8649662468DEB9000963E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8649652468DEB9000963E2 /* AppDelegate.swift */; };
 		0A8649682468DEB9000963E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8649672468DEB9000963E2 /* SceneDelegate.swift */; };
-		0A86496A2468DEB9000963E2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8649692468DEB9000963E2 /* MasterViewController.swift */; };
-		0A86496C2468DEB9000963E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86496B2468DEB9000963E2 /* DetailViewController.swift */; };
 		0A86496F2468DEB9000963E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A86496D2468DEB9000963E2 /* Main.storyboard */; };
 		0A8649712468DEBB000963E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8649702468DEBB000963E2 /* Assets.xcassets */; };
 		0A8649742468DEBB000963E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8649722468DEBB000963E2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3347F82472516200DBC66B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0A3347FA247257A500DBC66B /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		0A3347FC24725D2E00DBC66B /* PersonnelManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelManagerViewController.swift; sourceTree = "<group>"; };
+		0A3347FE24725FB300DBC66B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0A3348002472624700DBC66B /* TaskManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerViewController.swift; sourceTree = "<group>"; };
+		0A33480224796B8700DBC66B /* battle-buddy-team-176x236.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "battle-buddy-team-176x236.jpg"; sourceTree = SOURCE_ROOT; };
+		0A334808247987E800DBC66B /* gear-setting-logo-icon-vector-24042659.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gear-setting-logo-icon-vector-24042659.jpg"; path = "Images/gear-setting-logo-icon-vector-24042659.jpg"; sourceTree = SOURCE_ROOT; };
+		0A33480A2479DA0A00DBC66B /* male_silhouette_icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = male_silhouette_icon.jpeg; path = Images/male_silhouette_icon.jpeg; sourceTree = SOURCE_ROOT; };
+		0A33480C2479DAC800DBC66B /* army-cadet-command.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "army-cadet-command.jpg"; path = "Images/army-cadet-command.jpg"; sourceTree = SOURCE_ROOT; };
+		0A33480E2479DAD500DBC66B /* wabash-battalion-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "wabash-battalion-logo.jpeg"; path = "Images/wabash-battalion-logo.jpeg"; sourceTree = SOURCE_ROOT; };
+		0A3348102479DAF700DBC66B /* seventh-brigade-logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "seventh-brigade-logo.jpeg"; path = "Images/seventh-brigade-logo.jpeg"; sourceTree = SOURCE_ROOT; };
+		0A334812247A04D900DBC66B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0A334818247A1FD500DBC66B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A33481A247AA7B200DBC66B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		0A33481E247AB2EA00DBC66B /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
 		0A8649622468DEB9000963E2 /* MyLDRSHIP_BattleBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLDRSHIP_BattleBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8649652468DEB9000963E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A8649672468DEB9000963E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A8649692468DEB9000963E2 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		0A86496B2468DEB9000963E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0A86496E2468DEB9000963E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A8649702468DEBB000963E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A8649732468DEBB000963E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A8649752468DEBB000963E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9770608AABB9D6568C7FCE1 /* Pods_MyLDRSHIP_BattleBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLDRSHIP_BattleBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E442F2FFC869E879B27E7C4D /* Pods-MyLDRSHIP_BattleBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLDRSHIP_BattleBuddy.release.xcconfig"; path = "Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		FE308FDB84D7999B64822ED3 /* Pods-MyLDRSHIP_BattleBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLDRSHIP_BattleBuddy.debug.xcconfig"; path = "Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E298DB5865D375B03361A2 /* Pods_MyLDRSHIP_BattleBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03760405A19D6805C9709F28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE308FDB84D7999B64822ED3 /* Pods-MyLDRSHIP_BattleBuddy.debug.xcconfig */,
+				E442F2FFC869E879B27E7C4D /* Pods-MyLDRSHIP_BattleBuddy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0A8649592468DEB9000963E2 = {
 			isa = PBXGroup;
 			children = (
 				0A8649642468DEB9000963E2 /* MyLDRSHIP_BattleBuddy */,
 				0A8649632468DEB9000963E2 /* Products */,
+				03760405A19D6805C9709F28 /* Pods */,
+				E3A8DA085F6ECA26D3CA5D56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +102,35 @@
 			children = (
 				0A8649652468DEB9000963E2 /* AppDelegate.swift */,
 				0A8649672468DEB9000963E2 /* SceneDelegate.swift */,
-				0A8649692468DEB9000963E2 /* MasterViewController.swift */,
-				0A86496B2468DEB9000963E2 /* DetailViewController.swift */,
 				0A86496D2468DEB9000963E2 /* Main.storyboard */,
 				0A8649702468DEBB000963E2 /* Assets.xcassets */,
 				0A8649722468DEBB000963E2 /* LaunchScreen.storyboard */,
+				0A33480224796B8700DBC66B /* battle-buddy-team-176x236.jpg */,
+				0A334808247987E800DBC66B /* gear-setting-logo-icon-vector-24042659.jpg */,
+				0A33480A2479DA0A00DBC66B /* male_silhouette_icon.jpeg */,
+				0A33480E2479DAD500DBC66B /* wabash-battalion-logo.jpeg */,
+				0A3348102479DAF700DBC66B /* seventh-brigade-logo.jpeg */,
+				0A33480C2479DAC800DBC66B /* army-cadet-command.jpg */,
 				0A8649752468DEBB000963E2 /* Info.plist */,
+				0A334818247A1FD500DBC66B /* GoogleService-Info.plist */,
+				0A334812247A04D900DBC66B /* Profile.swift */,
+				0A33481A247AA7B200DBC66B /* Task.swift */,
+				0A3347F82472516200DBC66B /* LogInViewController.swift */,
+				0A3347FA247257A500DBC66B /* MainPageViewController.swift */,
+				0A3347FC24725D2E00DBC66B /* PersonnelManagerViewController.swift */,
+				0A3347FE24725FB300DBC66B /* ProfileViewController.swift */,
+				0A3348002472624700DBC66B /* TaskManagerViewController.swift */,
+				0A33481E247AB2EA00DBC66B /* TaskDetailsViewController.swift */,
 			);
 			path = MyLDRSHIP_BattleBuddy;
+			sourceTree = "<group>";
+		};
+		E3A8DA085F6ECA26D3CA5D56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9770608AABB9D6568C7FCE1 /* Pods_MyLDRSHIP_BattleBuddy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A8649782468DEBB000963E2 /* Build configuration list for PBXNativeTarget "MyLDRSHIP_BattleBuddy" */;
 			buildPhases = (
+				333E18E66751579ACB411427 /* [CP] Check Pods Manifest.lock */,
 				0A86495E2468DEB9000963E2 /* Sources */,
 				0A86495F2468DEB9000963E2 /* Frameworks */,
 				0A8649602468DEB9000963E2 /* Resources */,
+				62C06E71C77AA302DFBD9B57 /* [CP] Embed Pods Frameworks */,
+				89DFC2567819F2087966BC0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,23 +194,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33480F2479DAD500DBC66B /* wabash-battalion-logo.jpeg in Resources */,
+				0A33480D2479DAC800DBC66B /* army-cadet-command.jpg in Resources */,
+				0A334809247987E800DBC66B /* gear-setting-logo-icon-vector-24042659.jpg in Resources */,
 				0A8649742468DEBB000963E2 /* LaunchScreen.storyboard in Resources */,
 				0A8649712468DEBB000963E2 /* Assets.xcassets in Resources */,
+				0A3348112479DAF800DBC66B /* seventh-brigade-logo.jpeg in Resources */,
 				0A86496F2468DEB9000963E2 /* Main.storyboard in Resources */,
+				0A334819247A1FD500DBC66B /* GoogleService-Info.plist in Resources */,
+				0A33480B2479DA0A00DBC66B /* male_silhouette_icon.jpeg in Resources */,
+				0A33480324796B8700DBC66B /* battle-buddy-team-176x236.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333E18E66751579ACB411427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLDRSHIP_BattleBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C06E71C77AA302DFBD9B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DFC2567819F2087966BC0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLDRSHIP_BattleBuddy/Pods-MyLDRSHIP_BattleBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A86495E2468DEB9000963E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33481F247AB2EA00DBC66B /* TaskDetailsViewController.swift in Sources */,
+				0A3347FF24725FB300DBC66B /* ProfileViewController.swift in Sources */,
+				0A334813247A04D900DBC66B /* Profile.swift in Sources */,
+				0A3347FB247257A500DBC66B /* MainPageViewController.swift in Sources */,
 				0A8649662468DEB9000963E2 /* AppDelegate.swift in Sources */,
 				0A8649682468DEB9000963E2 /* SceneDelegate.swift in Sources */,
-				0A86496A2468DEB9000963E2 /* MasterViewController.swift in Sources */,
-				0A86496C2468DEB9000963E2 /* DetailViewController.swift in Sources */,
+				0A3347F92472516200DBC66B /* LogInViewController.swift in Sources */,
+				0A3347FD24725D2E00DBC66B /* PersonnelManagerViewController.swift in Sources */,
+				0A33481B247AA7B200DBC66B /* Task.swift in Sources */,
+				0A3348012472624700DBC66B /* TaskManagerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +424,7 @@
 		};
 		0A8649792468DEBB000963E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE308FDB84D7999B64822ED3 /* Pods-MyLDRSHIP_BattleBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +442,7 @@
 		};
 		0A86497A2468DEBB000963E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E442F2FFC869E879B27E7C4D /* Pods-MyLDRSHIP_BattleBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

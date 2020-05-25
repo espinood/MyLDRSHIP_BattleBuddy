@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>79841196392-jg7me9gk7k96krhlh75eelensfklqdoa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.79841196392-jg7me9gk7k96krhlh75eelensfklqdoa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5tdNPRPM1INkowntQIT-Y9KwGQoigkBQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>79841196392</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.rose-hulman.espinood.MyLDRSHIP-BattleBuddy</string>
+	<key>PROJECT_ID</key>
+	<string>myldrship-battlebuddy</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myldrship-battlebuddy.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:79841196392:ios:90c60265c369283ead7edd</string>
+	<key>DATABASE_URL</key>
+	<string>https://myldrship-battlebuddy.firebaseio.com</string>
+</dict>
+</plist>
